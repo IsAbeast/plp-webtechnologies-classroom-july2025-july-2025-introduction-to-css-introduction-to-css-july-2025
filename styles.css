@@ -1,0 +1,74 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Card sections */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* Demonstrate Box Model */
+.card p {
+  background: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #999;
+  margin: 15px 0;
+}
+
+/* Button styling */
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
